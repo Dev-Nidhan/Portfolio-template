@@ -1,6 +1,6 @@
-# Nidhan Jain · Computer Science Portfolio
+# Computer Science Student Portfolio
 
-A responsive, developer-focused portfolio for Nidhan Jain, a computer science student at VIT Bhopal University. It uses plain HTML, CSS, and JavaScript for the frontend, Flask for the Python backend, and SQLite to store contact form submissions. The project cards use custom CSS interface previews instead of generic stock-image tiles.
+A responsive, developer-focused portfolio template for a computer science student. Replace the sample name, university, bio, and project concepts with your own details. It uses plain HTML, CSS, and JavaScript for the frontend, Flask for the Python backend, and SQLite to store contact form submissions. The project cards use custom CSS interface previews instead of generic stock-image tiles.
 
 ## Features
 

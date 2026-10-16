@@ -16,13 +16,13 @@ class PortfolioAppTests(unittest.TestCase):
     def tearDown(self):
         self.temp_dir.cleanup()
 
-    def test_homepage_displays_nidhan_and_university(self):
+    def test_homepage_displays_sample_student_identity(self):
         response = self.client.get("/")
 
         self.assertEqual(response.status_code, 200)
-        self.assertIn(b"Nidhan Jain", response.data)
+        self.assertIn(b"Your Name", response.data)
         self.assertIn(b"computer science student", response.data)
-        self.assertIn(b"VIT Bhopal University", response.data)
+        self.assertIn(b"Your University", response.data)
         response.close()
 
     def test_contact_message_is_saved(self):
